@@ -1009,10 +1009,10 @@ footer {
   }
 }
 
-.nav{width: 80%;margin: 0 auto;}
+.nav{width: 90%;margin: 0 auto;}
 .nav li{float: left;width: 20%;padding: 1% 0;text-align: center;color: #fff;cursor: pointer;}
 .content{padding: 2% 0;}
-.schedule_list_outer{width: 90%;margin: 0 auto;max-width: 800px;}
+.schedule_list_outer{width: 100%;margin: 0 auto;max-width: 800px;}
 .schedule_list_outer td{padding: 1%;border: 1px solid #fff;color: #fff;}
 .schedule_list_outer td:first-of-type{background: #4eb8fb;width: 20%;}
 .schedule_list_outer td:last-of-type{background: #4499EE;width: 80%;}
