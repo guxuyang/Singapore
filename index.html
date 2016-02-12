@@ -7,17 +7,17 @@
     <link rel="stylesheet" href="stylesheets/styles.css">
     <link rel="stylesheet" href="stylesheets/github-dark.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+    <script src="javascripts/main.js"></script>
     <script type="text/javascript">
   	$(document).ready(function(){
-  		alert(111);
+  	
   		$('.nav_li').click(function(){
   			var index = $('.nav_li').index(this);
   			$('.nav_li').css('background','#049FF1').eq(index).css('background','#065FB9');
   			$('.content').fadeOut().eq(index).fadeIn();
   		})
   	})
-	</script>
-    <script src="javascripts/main.js"></script>
+    </script>
     <!--[if lt IE 9]>
       <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
