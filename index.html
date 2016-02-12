@@ -16,6 +16,8 @@
   	$(document).ready(function(){
   		$('.nav li').click(function(){
   			var index = $('.nav li').index(this);
+  			alert(index);
+  			alert(111);
   			$('.nav li').css('background','#049FF1').eq(index).css('background','#065FB9');
   			$('.content').fadeOut().eq(index).fadeIn();
   		})
