@@ -14,11 +14,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
     <script type="text/javascript">
   	$(document).ready(function(){
-  		$('.nav li').click(function(){
-  			var index = $('.nav li').index(this);
-  			alert(index);
-  			alert(111);
-  			$('.nav li').css('background','#049FF1').eq(index).css('background','#065FB9');
+  		$('.nav_li').click(function(){
+  			var index = $('.nav_li').index(this);
+  			$('.nav_li').css('background','#049FF1').eq(index).css('background','#065FB9');
   			$('.content').fadeOut().eq(index).fadeIn();
   		})
   	})
@@ -52,11 +50,11 @@
           <div class="container">
 	<div class="nav_outer">
 		<ul class="nav fixed">
-			<li style="background:#065FB9;">DAY1</li>
-			<li>DAY2</li>
-			<li>DAY3</li>
-			<li>DAY4</li>
-			<li>DAY5</li>
+			<li style="background:#065FB9;" class="nav_li">DAY1</li>
+			<li class="nav_li">DAY2</li>
+			<li class="nav_li">DAY3</li>
+			<li class="nav_li">DAY4</li>
+			<li class="nav_li">DAY5</li>
 		</ul>
 	</div><!--end nav_outer-->
 	<div class="content">
